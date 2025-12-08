@@ -1,5 +1,5 @@
 :root {
-  --green: #41a62a;
+  --sapin: #497c29;
   --orange: #e75113;
   --brown: #542c08;
   --purple: #622181;
@@ -10,7 +10,7 @@
   --black: #000000;
 }
 
-/*Début loader*/
+/*Début Loader*/
 .loader-container {
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background: linear-gradient(0deg, var(--white) 50%, var(--green) 100%);
+  background: linear-gradient(0deg, var(--white) 50%, var(--sapin) 100%);
   animation: spin 1s linear infinite;
 }
 
@@ -41,4 +41,4 @@
     transform: rotate(360deg);
   }
 }
-/*Fin loader*/
+/*Fin Loader*/
